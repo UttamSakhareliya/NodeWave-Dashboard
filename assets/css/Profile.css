@@ -1,0 +1,133 @@
+.Profile-table {
+    padding: 1.6rem;
+    background-color: var(--color-Black);
+    border-radius: 4px;
+    margin-top: 2.4rem;
+  }
+  .Profile-table h5 {
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid var(--color-DarkGrey);
+    color: var(--color-White);
+    margin-bottom: 1.6rem;
+  }
+  .my-Profile .Profile-form {
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid #161616;
+  }
+  .Profile-form span {
+    background: linear-gradient(92.87deg, #e30f2e 0%, #db1360 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 1.6rem;
+  }
+  .Profile-form label {
+    color: var(--color-White);
+    font-size: 1.6rem;
+    display: block;
+  }
+  .Profile-form input {
+    color: var(--color-White);
+    font-size: 1.6rem;
+    background-color: #161616;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    padding: 1.2rem;
+    margin-top: 0.8rem;
+  }
+  .Profile-form input::placeholder {
+    color: var(--color-White);
+    font-size: 1.6rem;
+  }
+  .Profile-form .form-sec-2 {
+    margin-top: 2.4rem;
+  }
+  .Profile-form .form-sec-2 select {
+    width: 15.5rem;
+    background-color: #161616;
+    border: 0;
+    padding: 1.2rem;
+    outline: none;
+    border-radius: 4px;
+    color: var(--color-White);
+    margin-top: 0.8rem;
+    font-size: 1.6rem;
+    margin-right: 1.6rem;
+  }
+  .Mobile-item {
+    width: 100%;
+  }
+  .Mobile-item input::-webkit-outer-spin-button,
+  .Mobile-item input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .my-Profile input:focus {
+    background: #656565;
+  }
+  .my-Profile .Profile-form .form-sec-2 p {
+    background: linear-gradient(92.87deg, #e30f2e 0%, #db1360 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .my-Profile .Submit-btn {
+    margin-top: 1.6rem;
+  }
+  .my-Profile .Submit-btn button {
+    background: linear-gradient(92.87deg, #e30f2e 0%, #db1360 100%);
+    border-radius: 4px;
+    padding: 1.2rem 2.4rem;
+    color: var(--color-White);
+    font-weight: 500;
+    border: 0;
+  }
+  
+  @media screen and (min-width: 1400px) and (max-width: 1599px) {
+    
+    
+  }
+  
+  @media screen and (min-width: 1200px) and (max-width: 1399px) {
+      .Profile-form .form-sec-2 select {
+          width: 11.5rem;
+      }
+      
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+      .Profile-form .form-sec-2 select {
+          width: 11.5rem;
+      }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+      .Profile-form .form-sec-2 select {
+          width: 10.5rem;
+      }
+  }
+  
+  @media only screen and (max-width: 991px) {
+      .Profile-form .form-sec-2 select {
+          width: 10rem;
+      }
+  }
+  
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+  }
+  
+  @media screen and (max-width: 767px) {
+  }
+  
+  @media screen and (max-width: 575px) {
+  }
+  
+  @media screen and (max-width: 400px) {
+  }
+  

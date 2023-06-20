@@ -1,0 +1,99 @@
+.Referral-list {
+    padding: 1.6rem;
+    background-color: var(--color-Black);
+    border-radius: 4px;
+    margin-bottom: 2.4rem;
+}
+
+.Profile-table {
+    padding: 1.6rem;
+    background-color: var(--color-Black);
+    border-radius: 4px;
+    margin-top: 2.4rem;
+}
+
+.Referral-list h5 {
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid var(--color-DarkGrey);
+    color: var(--color-White);
+    margin-bottom: 1.6rem;
+}
+
+.Profile-table h5 {
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid var(--color-DarkGrey);
+    color: var(--color-White);
+    margin-bottom: 1.6rem;
+}
+
+.level_group button {
+    width: 100px;
+    border: 0;
+    border-radius: 50rem;
+    height: 40px;
+    font-weight: 600;
+    background-color: transparent;
+    color: var(--color-White);
+}
+
+.level_group button.active {
+    background-image: var(--Primary-Gradient);
+}
+
+.level_group button:hover {
+    background-image: var(--Primary-Gradient);
+}
+
+.level_group span {
+    margin: 0 6px;
+    color: var(--color-White);
+}
+
+.Nodes .email-box {
+    height: 5.6rem;
+}
+
+.Nodes .email-box input {
+    width: 100%;
+    outline: none;
+    background: var(--color-Black);
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid;
+    border-image: linear-gradient(#e30f2e, #db1360) 1;
+    padding: 0 2rem;
+    color: var(--color-White);
+    font-weight: 500;
+}
+
+.Nodes .email-box button {
+    background: linear-gradient(92.87deg, #e30f2e 0%, #db1360 100%);
+    border-radius: 0px 4px 4px 0px;
+    padding: 1.6rem 3rem;
+    border: none;
+    color: var(--color-White);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 575px) {}
+
+@media screen and (max-width: 400px) {}
